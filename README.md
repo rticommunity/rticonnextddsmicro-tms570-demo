@@ -3,8 +3,8 @@
 This repository includes a sample project on how to run **RTI Connext DDS Micro** on
 **TMS570LC43x**.
 
-This sample project shows that it is possible to run RTI Connext DDS Micro on TMS570LC43x
-and it can be used as example by developers who wish to add DDS communications to their
+This sample project shows that it is possible to run [RTI Connext DDS Micro](http://www.rti.com/products/micro.html) 
+on TMS570LC43x and it can be used as example by developers who wish to add DDS communications to their
 microcontroller based applications.
 
 ## Demo Description
