@@ -40,11 +40,11 @@
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DISPLAY_ERROR_NUMBER.66667071" name="Emit diagnostic identifier numbers (--display_error_number, -pden)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DIAG_WRAP.1122625282" name="Wrap diagnostic messages (--diag_wrap)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DIAG_WRAP" value="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DIAG_WRAP.off" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.INCLUDE_PATH.1553897915" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.INCLUDE_PATH" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/example_micro_app/sample_app}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/example_micro_app/generated_code}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/micro_2.4.6/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/freertos_halcogen_generated/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/HL/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ExampleMicroApp/SampleApp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ExampleMicroApp/TypeFiles}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Micro2.4.6/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/FreertosHalcogenGenerated/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/HalcogenGenerated/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEFINE.424596653" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEFINE" valueType="definedSymbols">
@@ -124,11 +124,11 @@
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DISPLAY_ERROR_NUMBER.1787909895" name="Emit diagnostic identifier numbers (--display_error_number, -pden)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DIAG_WRAP.1302253118" name="Wrap diagnostic messages (--diag_wrap)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DIAG_WRAP" value="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DIAG_WRAP.off" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.INCLUDE_PATH.2009375229" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.INCLUDE_PATH" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/example_micro_app/sample_app}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/example_micro_app/generated_code}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/micro_2.4.6/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/freertos_halcogen_generated/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/HL/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ExampleMicroApp/SampleApp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ExampleMicroApp/TypeFiles}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Micro2.4.6/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/FreertosHalcogenGenerated/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/HalcogenGenerated/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEFINE.2121711196" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEFINE" valueType="definedSymbols">
