@@ -163,7 +163,7 @@ Application_create(const char *local_participant_name,
 #elif defined(RTI_WIN32)
         *REDA_StringSeq_get_reference(&udp_property->allow_interface,1) = "Local Area Connection";
 #else
-        //*REDA_StringSeq_get_reference(&udp_property->allow_interface,1) = "ce0";
+        *REDA_StringSeq_get_reference(&udp_property->allow_interface,1) = "ce0";
 #endif
     }
     */
@@ -275,6 +275,8 @@ Application_create(const char *local_participant_name,
     success = DDS_BOOLEAN_TRUE;
 
   done:
+    DDS_DomainParticipantQos_finalize(&dp_qos);
+
     if (!success)
     {
         if (udp_property != NULL)
